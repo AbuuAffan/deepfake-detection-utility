@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Local application output (may contain screen content)
+captures/
+
+# Large downloaded model weights
+detector/models/*/*.safetensors
+detector/models/*/pytorch_model*.bin
+
+# Downloaded model and framework caches
+.cache/
+torch_extensions/
+
+# IDE user state and temporary files
+.idea/workspace.xml
+.idea/**/workspace.xml
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+*.orig
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
